@@ -4,5 +4,6 @@ print("immutable_var:", immutable_var)
 #print(immutable_var)
 mutable_list = [1, "string", True]
 mutable_list [0] = 2
-mutable_list [1] = "list"
+mutable_list.append("list")
+mutable_list.remove("string")
 print("mutable_list: ", mutable_list)
